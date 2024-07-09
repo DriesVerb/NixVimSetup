@@ -1,8 +1,9 @@
 {
   keymaps = [
+    #nvim-tree
     {
       action = "<cmd>NvimTreeToggle<CR>";
-      key = "<leader>ee"
+      key = "<leader>ee";
     }
   ];
 }
