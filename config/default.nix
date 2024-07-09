@@ -3,5 +3,7 @@
   imports = [ 
   ./core/themes/default.nix
   ./core/options/default.nix
+
+  ./plugins/nvim-tree.nix
   ];
 }
