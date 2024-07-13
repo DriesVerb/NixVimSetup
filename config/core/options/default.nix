@@ -21,7 +21,7 @@
 
     ## search
     # ignore case
-    ingorecase = true;
+    ignorecase = true;
     # include mixed case in search
     smartcase = true;
     
@@ -43,7 +43,6 @@
     # swapping files and undos
     swapfile = false;
     backup = false;
-    undodir = os.getenv("home") .. "/.vim/ndodir";
     undofile = true;
   };
 

@@ -5,7 +5,6 @@
   ./core/themes/default.nix
   ./core/keymaps/default.nix
   ./core/options/default.nix
-
-  ./plugins/nvim-tree.nix
+  ./plugins/default.nix
   ];
 }
