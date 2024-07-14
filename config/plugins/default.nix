@@ -1,8 +1,9 @@
 {
  imports = [
- ./alpha.nix
- ./nvim-tree.nix
- ./telescope.nix
- ./treesitter.nix
+  ./alpha.nix
+  ./vanilla.nix
+  ./nvim-tree.nix
+  ./telescope.nix
+  ./treesitter.nix
  ];
 }
