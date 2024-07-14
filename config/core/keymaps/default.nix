@@ -1,6 +1,5 @@
 {
   keymaps = [
-
     ##insert mode
     {
      mode  = "i";
@@ -142,5 +141,30 @@
 	    key = "<leader>fc";
     }
 
+    ## splitting windows
+    # split window vertical
+    {
+   	  mode = "n";
+      action = "<C-w>v";
+	    key = "<leader>sv";
+    }
+    # split window horizontal
+    {
+   	  mode = "n";
+      action = "<C-w>s";
+	    key = "<leader>sh";
+    }
+    # split window in the middle
+    {
+   	  mode = "n";
+      action = "<C-w>=";
+	    key = "<leader>se";
+    }
+    # close current file
+    {
+   	  mode = "n";
+      action = ":close<CR>";
+	    key = "<leader>sx";
+    }
   ];
 }
