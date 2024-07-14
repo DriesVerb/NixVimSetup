@@ -109,5 +109,38 @@
       action = "<cmd>NvimTreeRefresh<CR>";
       key = "<leader>er";
     }
+
+    ## telescope
+    # find files
+    {
+   	  mode = "n";
+      action = "<cmd>Telescope find_files<CR>";
+	    key = "<leader>ff";
+    }
+    # find recent files
+    {
+   	  mode = "n";
+      action = "<cmd>Telescope oldfiles<CR>";
+	    key = "<leader>fr";
+    }
+    # find string in cwd 
+    {
+   	  mode = "n";
+      action = "<cmd>Telescope live_grep<CR>";
+	    key = "<leader>fs";
+    }
+    # find string under cursor 
+    {
+   	  mode = "n";
+      action = "<cmd>Telescope grep_string<CR>";
+	    key = "<leader>fc";
+    }
+    # find todos
+    {
+   	  mode = "n";
+      action = "<cmd>TodoTelescope<CR>";
+	    key = "<leader>fc";
+    }
+
   ];
 }

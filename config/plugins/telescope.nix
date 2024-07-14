@@ -11,6 +11,7 @@
         };
       };
       settings = {
+      defaults = {
         mappings = {
           i = {
             "<C-j>" = {
@@ -20,6 +21,7 @@
           __raw = "require('telescope.actions').move_selection_previous";
         };
           };
+        };
         };
       };
     };
