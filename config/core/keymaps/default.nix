@@ -169,8 +169,8 @@
     # maximize current file
     {
    	  mode = "n";
-      action = ":ZenMode";
-	    key = "<leader>sx";
+      action = ":ZenMode<CR>";
+	    key = "<leader>sm";
     }
   ];
 }

@@ -8,6 +8,6 @@
     };
     zen-mode = {
       enable = true;
-    }
+    };
   };
 }
