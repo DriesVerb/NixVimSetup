@@ -166,5 +166,11 @@
       action = ":close<CR>";
 	    key = "<leader>sx";
     }
+    # maximize current file
+    {
+   	  mode = "n";
+      action = ":ZenMode";
+	    key = "<leader>sx";
+    }
   ];
 }

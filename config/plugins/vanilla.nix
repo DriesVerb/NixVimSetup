@@ -6,5 +6,8 @@
     dressing = {
       enable = true;
     };
+    zen-mode = {
+      enable = true;
+    }
   };
 }
