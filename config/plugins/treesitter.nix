@@ -3,7 +3,7 @@
     treesitter = {
       enable = true;
       folding = false;
-      settings = { 
+      settings = {
         highlight = {
           enable = true;
         };

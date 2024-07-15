@@ -2,84 +2,84 @@
   keymaps = [
     ##insert mode
     {
-     mode  = "i";
-     action = "<ESC>";
-     key =  "jk";
+      mode = "i";
+      action = "<ESC>";
+      key = "jk";
     }
 
     ##normal mode
     {
-   	mode = "n";
-      	action = ":q<CR>";
-	key = "<leader>qf";
+      mode = "n";
+      action = ":q<CR>";
+      key = "<leader>qf";
     }
     {
-   	mode = "n";
-      	action = ":qa<CR>";
-	key = "<leader>qa";
+      mode = "n";
+      action = ":qa<CR>";
+      key = "<leader>qa";
     }
     {
-   	mode = "n";
-      	action = ":w<CR>";
-	key = "<leader>sf";
+      mode = "n";
+      action = ":w<CR>";
+      key = "<leader>sf";
     }
     {
-   	mode = "n";
-      	action = ":wa<CR>";
-	key = "<leader>sa";
+      mode = "n";
+      action = ":wa<CR>";
+      key = "<leader>sa";
     }
 
     #clear highlights
     {
-   	mode = "n";
-      	action = ":nohl<CR>";
-	key = "<leader>nh";
+      mode = "n";
+      action = ":nohl<CR>";
+      key = "<leader>nh";
     }
 
     # toggle line numbers
     {
-   	mode = "n";
-      	action = ":set rnu!<CR>";
-	key = "<leader>ln";
+      mode = "n";
+      action = ":set rnu!<CR>";
+      key = "<leader>ln";
     }
 
     ## tabs
     # open new tab
     {
-   	mode = "n";
-      	action = ":tabnew<CR>";
-	key = "<leader>to";
+      mode = "n";
+      action = ":tabnew<CR>";
+      key = "<leader>to";
     }
     # close current tab
     {
-   	mode = "n";
-      	action = ":tabclose<CR>";
-	key = "<leader>tx";
+      mode = "n";
+      action = ":tabclose<CR>";
+      key = "<leader>tx";
     }
     # go to next tab
     {
-   	mode = "n";
-      	action = ":tabn<CR>";
-	key = "<leader>tn";
+      mode = "n";
+      action = ":tabn<CR>";
+      key = "<leader>tn";
     }
     # go to previous tab
     {
-   	mode = "n";
-      	action = ":tabp<CR>";
-	key = "<leader>tp";
+      mode = "n";
+      action = ":tabp<CR>";
+      key = "<leader>tp";
     }
 
     ##visual mode
     #move code
     {
-   	mode = "v";
-      	action = ":m '>+1<CR>gv=gv";
-	key = "J";
+      mode = "v";
+      action = ":m '>+1<CR>gv=gv";
+      key = "J";
     }
     {
-   	mode = "v";
-      	action = ":m '>-2<CR>gv=gv";
-	key = "K";
+      mode = "v";
+      action = ":m '>-2<CR>gv=gv";
+      key = "K";
     }
 
     ## nvim-tree
@@ -112,65 +112,65 @@
     ## telescope
     # find files
     {
-   	  mode = "n";
+      mode = "n";
       action = "<cmd>Telescope find_files<CR>";
-	    key = "<leader>ff";
+      key = "<leader>ff";
     }
     # find recent files
     {
-   	  mode = "n";
+      mode = "n";
       action = "<cmd>Telescope oldfiles<CR>";
-	    key = "<leader>fr";
+      key = "<leader>fr";
     }
     # find string in cwd 
     {
-   	  mode = "n";
+      mode = "n";
       action = "<cmd>Telescope live_grep<CR>";
-	    key = "<leader>fs";
+      key = "<leader>fs";
     }
     # find string under cursor 
     {
-   	  mode = "n";
+      mode = "n";
       action = "<cmd>Telescope grep_string<CR>";
-	    key = "<leader>fc";
+      key = "<leader>fc";
     }
     # find todos
     {
-   	  mode = "n";
+      mode = "n";
       action = "<cmd>TodoTelescope<CR>";
-	    key = "<leader>fc";
+      key = "<leader>fc";
     }
 
     ## splitting windows
     # split window vertical
     {
-   	  mode = "n";
+      mode = "n";
       action = "<C-w>v";
-	    key = "<leader>sv";
+      key = "<leader>sv";
     }
     # split window horizontal
     {
-   	  mode = "n";
+      mode = "n";
       action = "<C-w>s";
-	    key = "<leader>sh";
+      key = "<leader>sh";
     }
     # split window in the middle
     {
-   	  mode = "n";
+      mode = "n";
       action = "<C-w>=";
-	    key = "<leader>se";
+      key = "<leader>se";
     }
     # close current file
     {
-   	  mode = "n";
+      mode = "n";
       action = ":close<CR>";
-	    key = "<leader>sx";
+      key = "<leader>sx";
     }
     # maximize current file
     {
-   	  mode = "n";
+      mode = "n";
       action = ":ZenMode<CR>";
-	    key = "<leader>sm";
+      key = "<leader>sm";
     }
   ];
 }

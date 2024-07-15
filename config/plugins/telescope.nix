@@ -1,5 +1,5 @@
 {
- plugins = {
+  plugins = {
     telescope = {
       enable = true;
       extensions = {
@@ -11,17 +11,17 @@
         };
       };
       settings = {
-      defaults = {
-        mappings = {
-          i = {
-            "<C-j>" = {
-          __raw = "require('telescope.actions').move_selection_next";
-        };
-        "<C-k>" = {
-          __raw = "require('telescope.actions').move_selection_previous";
-        };
+        defaults = {
+          mappings = {
+            i = {
+              "<C-j>" = {
+                __raw = "require('telescope.actions').move_selection_next";
+              };
+              "<C-k>" = {
+                __raw = "require('telescope.actions').move_selection_previous";
+              };
+            };
           };
-        };
         };
       };
     };

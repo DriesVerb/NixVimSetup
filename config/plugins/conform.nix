@@ -1,4 +1,4 @@
-{ pkgs, ...}:
+{ pkgs, ... }:
 let
   inherit (pkgs)
     stylua
@@ -20,10 +20,10 @@ in
         timeoutMs = 500;
       };
       formattersByFt = {
-          lua = [ "stylua" ];
-          typescriptreact = [ "prettierd" ];
-          nix = [ "nixpkgs-fmt" ];
+        lua = [ "stylua" ];
+        typescriptreact = [ "prettierd" ];
+        nix = [ "nixpkgs-fmt" ];
       };
     };
-   };
+  };
 }

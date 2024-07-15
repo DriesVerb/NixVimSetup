@@ -2,6 +2,6 @@
   plugins = {
     lualine = {
       enable = true;
-      };
-   };
+    };
+  };
 }

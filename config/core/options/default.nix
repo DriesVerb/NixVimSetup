@@ -24,7 +24,7 @@
     ignorecase = true;
     # include mixed case in search
     smartcase = true;
-    
+
     # takes gui colors
     termguicolors = true;
     # prefers dark in schemes
