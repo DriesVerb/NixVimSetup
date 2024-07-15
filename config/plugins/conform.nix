@@ -1,11 +1,29 @@
+{ pkgs, ...}:
+let
+  inherit (pkgs)
+    stylua
+    prettierd
+    nixpkgs-fmt;
+in
 {
+  extraPackages = [
+    stylua
+    prettierd
+    nixpkgs-fmt
+  ];
+
   plugins = {
     conform-nvim = {
       enable = true;
-        formattersByFt = {
-          lua = [ "stylua" ];
-          typescriptreact = [ "prettierd" "prettier" ];
-        };
+      formatOnSave = {
+        lspFallback = true;
+        timeoutMs = 500;
       };
+      formattersByFt = {
+          lua = [ "stylua" ];
+          typescriptreact = [ "prettierd" ];
+          nix = [ "nixpkgs-fmt" ];
+      };
+    };
    };
 }
