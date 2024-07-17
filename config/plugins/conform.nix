@@ -5,12 +5,14 @@ let
     nodePackages
     prettierd
     nixpkgs-fmt;
+    ripgrep
 in
 {
   extraPackages = [
     stylua
     nodePackages.prettier
     prettierd
+    ripgrep
     nixpkgs-fmt
   ];
 
