@@ -2,14 +2,12 @@
 let
   inherit (pkgs)
     stylua
-    prettier
     prettierd
     nixpkgs-fmt;
 in
 {
   extraPackages = [
     stylua
-    prettier
     prettierd
     nixpkgs-fmt
   ];
@@ -23,7 +21,7 @@ in
       };
       formattersByFt = {
         lua = [ "stylua" ];
-        typescriptreact = [ "prettierd" "prettier" ];
+        typescriptreact = [ "prettierd" ];
         nix = [ "nixpkgs-fmt" ];
       };
     };
