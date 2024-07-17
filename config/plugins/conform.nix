@@ -21,8 +21,13 @@ in
       };
       formattersByFt = {
         lua = [ "stylua" ];
-        typescriptreact = [ "prettierd" ];
         nix = [ "nixpkgs-fmt" ];
+        css = [ "prettierd" ];
+        html = [ "prettierd" ];
+        javascript = [ "prettierd" ];
+        typescript = [ "prettierd" ];
+        javascriptreact = [ "prettierd" ];
+        typescriptreact = [ "prettierd" ];
       };
     };
   };
