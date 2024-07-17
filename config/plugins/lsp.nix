@@ -7,7 +7,7 @@
         nixd.enable = true;
         cssls.enable = true;
         volar.enable = true;
-        lua-sl.enable = true;
+        lua-ls.enable = true;
         jsonls.enable = true;
       };
     };
