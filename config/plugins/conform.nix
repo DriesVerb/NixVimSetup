@@ -2,12 +2,14 @@
 let
   inherit (pkgs)
     stylua
+    nodePackages
     prettierd
     nixpkgs-fmt;
 in
 {
   extraPackages = [
     stylua
+    nodePackages.prettier
     prettierd
     nixpkgs-fmt
   ];
