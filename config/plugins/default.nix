@@ -5,7 +5,7 @@
     ./lualine.nix
     ./vanilla.nix
     ./conform.nix
-    ./packages.nix
+    # ./packages.nix
     ./nvim-tree.nix
     ./telescope.nix
     ./auto-pairs.nix

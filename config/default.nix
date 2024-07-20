@@ -1,5 +1,6 @@
 {
   imports = [
+    ./packages/default.nix
     ./core/themes/default.nix
     ./core/keymaps/default.nix
     ./core/options/default.nix
