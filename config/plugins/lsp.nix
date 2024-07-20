@@ -7,7 +7,7 @@ let
       url = "https://registry.npmjs.org/@vue/typescript-plugin/-/typescript-plugin-${version}.tgz";
       hash = "sha256-mWs8JPxWdQtaW30yVKRJsv70bZicz1HBVRwa5QSWcTE=";
     };
-    npmDepsHash = "sha256-OEMnImWpwNbAElpHRtW4kDn8WTfR027IUX1BVKhI+40=";
+    npmDepsHash = "sha256-FlYLeqNUEbBC9odlqEYJAKdh6sZG26POpHO0SVz+zFc=";
     dontNpmBuild = true;
     postPatch = ''
       cp ${../servers/typescript-plugin/package-lock.json} package-lock.json
@@ -24,7 +24,7 @@ let
     postPatch = ''
       cp ${../servers/vue/package-lock.json} package-lock.json
     '';
-    npmDepsHash = "sha256-Y5QNmjE58FeelGhSK3qHAMZs3xL+/1fHyNGL9bJElgE=";
+    npmDepsHash = "sha256-eZ5SMzGCJSDzCCZj6zShd/XVZ2qHLyCMp9VUgBe98DE=";
     dontNpmBuild = true;
     meta = {
       mainProgram = "vue-language-server";
