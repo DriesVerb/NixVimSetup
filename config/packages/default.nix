@@ -1,12 +1,8 @@
-{ pkgs, ... }: 
-let
-  inherit (pkgs)
+{ pkgs, mylib, ... }: {
+  extraPackages = with pkgs; [
     ripgrep
-    nodePackages;
-in
-{
-  extraPackages = [
-    ripgrep
+  ];
+  extraNodePackages = with mylib: [
     nodePackages.volar
   ];
 }
