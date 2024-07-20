@@ -1,10 +1,11 @@
 { pkgs, ... }: 
 let
   inherit (pkgs)
+    ripgrep
     nodePackages;
 in
 {
-  extraPackages = with pkgs; [
+  extraPackages = [
     ripgrep
     nodePackages.volar
   ];
