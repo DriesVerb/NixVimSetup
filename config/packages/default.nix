@@ -1,8 +1,5 @@
-{ pkgs, mylib, ... }: {
+{ pkgs, ... }: {
   extraPackages = with pkgs; [
     ripgrep
-  ];
-  extraNodePackages = with mylib: [
-    nodePackages.volar
   ];
 }
