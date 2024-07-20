@@ -2,6 +2,7 @@
   imports = [
     ./lsp.nix
     ./alpha.nix
+    ./volar.nix
     ./lualine.nix
     ./comment.nix
     ./vanilla.nix

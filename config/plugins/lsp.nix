@@ -20,11 +20,6 @@
         };
       };
       servers = {
-        tsserver = true;
-        volar = {
-          enable = true;
-          filetypes = [ "typescript" "vue" ];
-        };
         html.enable = true;
         nixd.enable = true;
         cssls.enable = true;
