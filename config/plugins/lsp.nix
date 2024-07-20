@@ -20,10 +20,13 @@
         };
       };
       servers = {
+        volar = {
+          enable = true;
+          filetypes = [ "typescript" ];
+        };
         html.enable = true;
         nixd.enable = true;
         cssls.enable = true;
-        volar.enable = true;
         lua-ls.enable = true;
         jsonls.enable = true;
         emmet-ls.enable = true;
