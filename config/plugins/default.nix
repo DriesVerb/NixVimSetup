@@ -9,6 +9,7 @@
     ./nvim-tree.nix
     ./telescope.nix
     ./auto-pairs.nix
+    ./completion.nix
     ./treesitter.nix
   ];
 }
