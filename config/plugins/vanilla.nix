@@ -9,5 +9,8 @@
     zen-mode = {
       enable = true;
     };
+    autoclose = {
+      enable = true;
+    };
   };
 }
