@@ -2,7 +2,7 @@
   imports = [
     ./lsp.nix
     ./alpha.nix
-   ./lualine.nix
+    ./lualine.nix
     ./comment.nix
     ./vanilla.nix
     ./conform.nix
@@ -11,5 +11,6 @@
     ./auto-pairs.nix
     ./completion.nix
     ./treesitter.nix
+    ./extraPlugins.nix
   ];
 }
