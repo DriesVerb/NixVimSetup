@@ -3,6 +3,7 @@
     ./lsp.nix
     ./lazy.nix
     ./alpha.nix
+    ./packer.nix
     ./lualine.nix
     ./comment.nix
     ./vanilla.nix
