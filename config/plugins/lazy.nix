@@ -4,7 +4,7 @@
       enable = true;
       plugins = [
         {
-          name = "vue-goto-definition";
+          name = "catgoose/vue-goto-definition.nvim";
         }
       ];
     };
