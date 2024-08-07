@@ -3,11 +3,11 @@
     ./lsp.nix
     ./lazy.nix
     ./alpha.nix
-    ./packer.nix
     ./lualine.nix
     ./comment.nix
     ./vanilla.nix
     ./conform.nix
+    ./gotoNuxt.nix
     ./nvim-tree.nix
     ./telescope.nix
     ./auto-pairs.nix
