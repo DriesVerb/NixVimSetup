@@ -1,6 +1,7 @@
 {
   imports = [
     ./lsp.nix
+    ./lazy.nix
     ./alpha.nix
     ./lualine.nix
     ./comment.nix
