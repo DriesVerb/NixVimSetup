@@ -11,6 +11,5 @@
     ./auto-pairs.nix
     ./completion.nix
     ./treesitter.nix
-    ./extraPlugins.nix
   ];
 }
