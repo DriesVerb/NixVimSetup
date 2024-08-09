@@ -7,10 +7,11 @@
     ./comment.nix
     ./vanilla.nix
     ./conform.nix
-    ./gotoNuxt.nix
-    ./nvim-tree.nix
+    ./gotoVue.nix
+    # ./gotoNuxt.nix
     ./telescope.nix
     ./auto-pairs.nix
+    ./nvim-tree.nix
     ./completion.nix
     ./treesitter.nix
   ];
