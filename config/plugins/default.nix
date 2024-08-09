@@ -8,7 +8,7 @@
     ./vanilla.nix
     ./conform.nix
     ./gotoVue.nix
-    # ./gotoNuxt.nix
+    ./gotoNuxt.nix
     ./telescope.nix
     ./auto-pairs.nix
     ./nvim-tree.nix
