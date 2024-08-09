@@ -7,7 +7,7 @@
     ./comment.nix
     ./vanilla.nix
     ./conform.nix
-    ./gotoVue.nix
+    # ./gotoVue.nix
     ./gotoNuxt.nix
     ./telescope.nix
     ./auto-pairs.nix
