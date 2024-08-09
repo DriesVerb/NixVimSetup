@@ -6,7 +6,7 @@
         owner = "catgoose";
         repo = "vue-goto-definition.nvim";
         rev = "cefd5147d5892b75e3c017bcfb46d2a776275088";
-        hash = "sha256-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=";
+        hash = "sha256-ThqMzpTnvDtJouig6r9lItq6ym+ZyUBEYhIMcqZ8BYQ=";
       };
     })
   ];
