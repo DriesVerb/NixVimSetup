@@ -1,19 +1,15 @@
-Moving from a NoevimLazy config to a Nixvim config
+# NixVim setup
 
-# Nixvim template
+I created this NixVim setup to isolate the packages that influence my Neovim setup. My main focus was getting a great experience working with volar lsp for Nuxt projects.
 
-This template gives you a good starting point for configuring nixvim standalone.
+To set up it up:
 
-## Configuring
+Install Nix
+Activate Flakes as exmperimental feature
+Clone
 
-To start configuring, just add or modify the nix files in `./config`.
-If you add a new configuration file, remember to add it to the
-[`config/default.nix`](./config/default.nix) file
+Nix run -> Test the application
+Nix build -> Build the application in the results folder
 
-## Testing your new configuration
 
-To test your configuration simply run the following command
 
-```
-nix run .
-```
