@@ -78,7 +78,7 @@
     }
     {
       mode = "v";
-      action = ":m '>-2<CR>gv=gv";
+      action = ":m '<-2<CR>gv=gv";
       key = "K";
     }
 
