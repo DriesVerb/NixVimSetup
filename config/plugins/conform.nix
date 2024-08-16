@@ -23,6 +23,7 @@ in
       };
       formattersByFt = {
         lua = [ "stylua" ];
+        vue = [ "prettierd" ];
         nix = [ "nixpkgs-fmt" ];
         css = [ "prettierd" ];
         html = [ "prettierd" ];
